@@ -1,0 +1,149 @@
+
+#topbar {
+    position: relative;
+    margin: auto;
+  }
+  
+  #topbar h1 {
+    position: absolute;
+    left: 30%;
+    top: 65%;
+    font-size: 3.5vw;
+    margin: auto;
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  
+  #topbar h2 {
+    position: absolute;
+    left: 30%;
+    top: 55%;
+    font-size: 2.2vw;
+    margin: auto;
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  .centered {
+    margin: auto;
+    display: block;
+    width: 75%;
+  }
+  
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+    width: 50%;
+    height: 3vw;
+    position: sticky;
+    top: 0.1vw;
+    justify-content: center;
+    padding: 0.1vw;
+    z-index: 2;
+  }
+  
+  .navbutton {
+    background-color: #222;
+    color: white;
+    border: 0.1vw solid lightgrey;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2vw;
+    flex: 3;
+    transition-duration: 0.3s;
+  }
+  
+  #navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    color: gold;
+  }
+  
+  
+  .qbox {
+    flex-direction: row;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    background-color: #222;
+  }
+  
+  .quotes {
+    height: 100%;
+    width: 100%;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.7vw;
+    color: white;
+    margin: auto;
+    position: relative;
+    text-align: left;
+    padding: 6% 6% 6% 0%;
+  }
+  
+  .qmark {
+    position: relative;
+    color: white;
+    font-size: 8vw;
+    left: 0.2vw;
+    top: -1.5vw;
+  }
+  
+  
+  .squares {
+    list-style-type: square;
+    padding-left: 2vw;
+  }
+  
+  .josefinsans {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    width: 32.5%;
+    margin: 3% auto;
+  }
+  
+  .josefinsans2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    font-size: 0.9vw;
+    line-height: 1.2vw;
+    width: 32.5%;
+    margin: 3% auto;
+  }
+  
+  .sub {
+    text-transform: uppercase;
+    margin-bottom: 8%;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .josefinsans2 h4 {
+    margin-bottom: -3%;
+  }
+  
+  h4 {
+    font-size: 0.9vw;
+  }
+  
+  .merriweather {
+    font-family: 'Merriweather', serif;
+    font-size: 0.65vw;
+  }
+  
+  .thick {
+    height: 0.2vw;
+    background-color: #222;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
